@@ -124,7 +124,9 @@ void setup()
 
 void loop() 
 {
-  //Pobranie informacji o wilgotnosci
+  sayNumber(1790);
+  delay(1000);
+  /*//Pobranie informacji o wilgotnosci
   int wilgotnosc = dht.getHumidity();
   //Pobranie informacji o temperaturze
   int temperatura = dht.getTemperature();
@@ -144,5 +146,5 @@ void loop()
     delay(3000);
     sayNumber(temperatura);
   }
-    delay(3000);
+    delay(3000); */
 }
